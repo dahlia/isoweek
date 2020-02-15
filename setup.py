@@ -13,7 +13,8 @@ setup(
     author='Gisle Aas',
     author_email='gisle@aas.no',
     url='http://github.com/gisle/isoweek',
-    py_modules=['isoweek'],
+    packages=['isoweek'],
+    package_data={'isoweek': ['py.typed']},
     license='BSD',
     long_description=open("README.rst").read(),
     classifiers=[
